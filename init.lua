@@ -68,10 +68,12 @@ vim.opt.scrolloff = 10
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+--  `:help vim.keymap.set()`
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+vim.keymap.set('n', '<leader>pv', '<cmd>Ex<CR>')
 
 -- Diagnostic keymaps
 vim.keymap.set('n', 'gD', vim.diagnostic.goto_prev, { desc = 'Go to previous [D]iagnostic message' })
