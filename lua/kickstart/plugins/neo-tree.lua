@@ -11,13 +11,13 @@ return {
   },
   lazy = false,
   keys = {
-    { 'gg', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { 'GG', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
     filesystem = {
       window = {
         mappings = {
-          ['gg'] = 'close_window',
+          ['GG'] = 'close_window',
         },
       },
     },
